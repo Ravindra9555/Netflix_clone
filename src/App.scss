@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  font-size: "Robot",sans-serif;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+
+}
+a,h2{
+  color: white;
+}
+a
+{
+  color:white;
+  text-decoration: none;
+
+}
+$bg:rgb(16,16,16);
+.header{
+    background-color: $bg;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    >img{
+        height:100%;
+
+    }
+    >div{
+       
+        width: 100%; 
+      margin-left:4vmax;
+ >a{
+   margin: 2vmax ;
+  font-size: 1.3rem;
+  font-weight: 300;
+ }
+    }
+    >svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        
+    }
+}
+svg:hover{
+  color: rgb(169, 166, 166);
+}
